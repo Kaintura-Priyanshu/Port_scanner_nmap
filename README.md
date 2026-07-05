@@ -36,7 +36,9 @@ A comprehensive, multi-threaded port scanner with Nmap-style functionality, serv
 ### Quick Installation
 
 git clone https://github.com/Kaintura-Priyanshu/Port_scanner_nmap.git
+
 cd Port_scanner_nmap
+
 sudo bash install.sh
 
 ## Manual Installation
