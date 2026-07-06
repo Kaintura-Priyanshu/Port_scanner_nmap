@@ -216,8 +216,8 @@ class PortScanner:
             banner = banner.replace('\n', ' ').replace('\r', ' ').strip()
             return banner[:200]  # Limit banner length
             
-        except:
-            return None
+        except OSError:
+        return None
     
     def os_detection(self):
         """Basic OS detection using TTL and TCP stack fingerprinting"""

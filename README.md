@@ -113,3 +113,9 @@ flake8 port_scanner.py
 
 # Format with black
 black port_scanner.py
+
+## Usage
+
+```bash
+python3 main.py
+```
